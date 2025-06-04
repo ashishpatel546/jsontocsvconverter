@@ -18,7 +18,17 @@
     "csv",
     "converter",
     "typescript",
-    "parser"
+    "json-to-csv",
+    "csv-converter",
+    "data-export",
+    "parser",
+    "delimiter",
+    "tsv",
+    "json2csv",
+    "array-to-csv",
+    "excel",
+    "zero-dependencies",
+    "nodejs"
   ],
   "author": "Ashish Patel",
   "license": "MIT",
