@@ -1,12 +1,12 @@
 <div align="center">
-  <h1>🚀 @sologence/jsontocsvconverter</h1>
+  <h1>🚀 json-data-to-csv</h1>
   
   <p><strong>A powerful, lightweight TypeScript library for converting JSON arrays to CSV format</strong></p>
   
-  [![npm version](https://img.shields.io/npm/v/@sologence/jsontocsvconverter.svg)](https://www.npmjs.com/package/@sologence/jsontocsvconverter)
+  [![npm version](https://img.shields.io/npm/v/json-data-to-csv.svg)](https://www.npmjs.com/package/json-data-to-csv)
   [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-  [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/@sologence/jsontocsvconverter)
+  [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/json-data-to-csv)
   
   <p>Transform your JSON data into properly formatted CSV with ease! 📊</p>
 </div>
@@ -28,19 +28,19 @@
 
 ```bash
 # Using npm
-npm install @sologence/jsontocsvconverter
+npm install json-data-to-csv
 
 # Using yarn
-yarn add @sologence/jsontocsvconverter
+yarn add json-data-to-csv
 
 # Using pnpm
-pnpm add @sologence/jsontocsvconverter
+pnpm add json-data-to-csv
 ```
 
 ## 🚀 Quick Start
 
 ```typescript
-import { parse } from '@sologence/jsontocsvconverter';
+import { parse } from 'json-data-to-csv';
 
 // Simple conversion
 const data = [
@@ -63,7 +63,7 @@ console.log(csv);
 Convert a simple array of objects to CSV format:
 
 ```typescript
-import { parse } from '@sologence/jsontocsvconverter';
+import { parse } from 'json-data-to-csv';
 
 const employees = [
   { name: 'John Doe', age: 30, city: 'New York', salary: 75000 },
@@ -89,7 +89,7 @@ Mike Johnson,35,Chicago,90000
 Use different delimiters for various regional formats:
 
 ```typescript
-import { parse } from '@sologence/jsontocsvconverter';
+import { parse } from 'json-data-to-csv';
 
 const data = [
   { product: 'Laptop', price: 999.99, stock: 50 },
@@ -122,7 +122,7 @@ Mouse;29.99;100
 Handle various data types seamlessly:
 
 ```typescript
-import { parse } from '@sologence/jsontocsvconverter';
+import { parse } from 'json-data-to-csv';
 
 const mixedData = [
   {
@@ -164,7 +164,7 @@ id,name,active,score,metadata,lastLogin,description,notes,tags,bio
 Handle objects with different property sets:
 
 ```typescript
-import { parse } from '@sologence/jsontocsvconverter';
+import { parse } from 'json-data-to-csv';
 
 const dynamicData = [
   { name: 'Alice', age: 30, department: 'Engineering' },
@@ -197,7 +197,7 @@ Diana,,Marketing,,,,"diana@example.com",,Alice
 Properly escape CSV special characters:
 
 ```typescript
-import { parse } from '@sologence/jsontocsvconverter';
+import { parse } from 'json-data-to-csv';
 
 const specialData = [
   {
@@ -301,7 +301,7 @@ class JsonToCsvError extends Error {
 The library provides comprehensive error handling with specific error codes for easy debugging:
 
 ```typescript
-import { parse, JsonToCsvError } from '@sologence/jsontocsvconverter';
+import { parse, JsonToCsvError } from 'json-data-to-csv';
 
 try {
   const csv = parse([]);
@@ -341,7 +341,7 @@ try {
 ### 🛠️ Error Handling Examples
 
 ```typescript
-import { parse, JsonToCsvError } from '@sologence/jsontocsvconverter';
+import { parse, JsonToCsvError } from 'json-data-to-csv';
 
 // Example 1: Empty array
 try {
@@ -384,7 +384,7 @@ The library follows RFC 4180 standards and properly handles all CSV special char
 ### 🧪 Real-world Examples
 
 ```typescript
-import { parse } from '@sologence/jsontocsvconverter';
+import { parse } from 'json-data-to-csv';
 
 // Example with various special characters
 const problematicData = [
@@ -430,7 +430,7 @@ console.log(europeanCsv);
 ### 📊 Data Export Dashboard
 
 ```typescript
-import { parse } from '@sologence/jsontocsvconverter';
+import { parse } from 'json-data-to-csv';
 
 // Export user analytics data
 const analyticsData = [
@@ -596,7 +596,7 @@ npm test -- --coverage
 ### 🔍 Project Structure
 
 ```
-@sologence/jsontocsvconverter/
+json-data-to-csv/
 ├── 📁 src/
 │   ├── 📄 index.ts              # Main library code
 │   └── 📁 __tests__/
@@ -708,10 +708,10 @@ We welcome contributions! Here's how you can help improve this library:
   <p><strong>Made with ❤️ by Ashish Patel</strong></p>
   
   <p>
-    <a href="https://www.npmjs.com/package/@sologence/jsontocsvconverter">📦 npm</a> •
-    <a href="https://github.com/ashishpatel546/jsontocsvconverter">🐙 GitHub</a> •
-    <a href="https://github.com/ashishpatel546/jsontocsvconverter/issues">🐛 Issues</a> •
-    <a href="https://github.com/ashishpatel546/jsontocsvconverter/blob/main/CHANGELOG.md">📋 Changelog</a>
+    <a href="https://www.npmjs.com/package/json-data-to-csv">📦 npm</a> •
+    <a href="https://github.com/ashishpatel546/json-data-to-csv">🐙 GitHub</a> •
+    <a href="https://github.com/ashishpatel546/json-data-to-csv/issues">🐛 Issues</a> •
+    <a href="https://github.com/ashishpatel546/json-data-to-csv/blob/main/CHANGELOG.md">📋 Changelog</a>
   </p>
   
   <p>

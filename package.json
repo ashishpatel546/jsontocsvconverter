@@ -1,6 +1,6 @@
 {
-  "name": "@sologence/jsontocsvconverter",
-  "version": "1.0.0",
+  "name": "json-data-to-csv",
+  "version": "1.0.1",
   "description": "A TypeScript library to convert array of objects to CSV format with customizable delimiter",
   "type": "module",
   "main": "dist/index.js",
@@ -28,7 +28,8 @@
     "array-to-csv",
     "excel",
     "zero-dependencies",
-    "nodejs"
+    "nodejs",
+    "csv-parser"
   ],
   "author": "Ashish Patel",
   "license": "MIT",
@@ -45,12 +46,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashishpatel546/jsontocsvconverter.git"
+    "url": "git+https://github.com/ashishpatel546/json-data-to-csv.git"
   },
   "bugs": {
-    "url": "https://github.com/ashishpatel546/jsontocsvconverter/issues"
+    "url": "https://github.com/ashishpatel546/json-data-to-csv/issues"
   },
-  "homepage": "https://github.com/ashishpatel546/jsontocsvconverter#readme",
+  "homepage": "https://github.com/ashishpatel546/json-data-to-csv#readme",
   "publishConfig": {
     "access": "public"
   }
