@@ -1,6 +1,6 @@
 {
   "name": "json-data-to-csv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TypeScript library to convert array of objects to CSV format with customizable delimiter",
   "type": "module",
   "main": "dist/index.js",
